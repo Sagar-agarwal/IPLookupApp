@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="IPAddressInfo" max_length="40" name="x_62665_iplookup_ipaddressinfo" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="City" max_length="40" name="u_city" type="string"/>
+        <element display="true" label="IP Address" max_length="40" name="u_ip_address" type="string"/>
+        <element label="Response" max_length="8000" name="u_response" type="string"/>
+        <element label="Response Obj" max_length="800" name="u_response_obj" type="data_structure"/>
+    </element>
+</database>
